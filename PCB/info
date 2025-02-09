@@ -1,0 +1,219 @@
+{
+  "uuid": "469871743dab71bba2bf4ed401d18581",
+  "path": "Offline/New%20Project",
+  "name": "New Project",
+  "content": "",
+  "created_at": "2024-03-31 20:13:28",
+  "updated_at": "2025-02-06 22:35:15",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "7db8db6f0e29507902b575a4e42785b0",
+      "title": "Sheet_1",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "2fa53d590f544429ab8fcbd581d715c1": 3,
+        "9391f9d5675b497683b317455643919c": 1,
+        "101e991a30b14ab7a14b842490d61bae": 1,
+        "ea364132913d4f9db42c6502af24b76e": 2,
+        "089009af89ec456fb76a36eebfae7cd9": 2,
+        "cf6eca9c9efe444882712b3d5cec1885": 4,
+        "5cbe824183374fac8e4c1ae848199ce3": 4
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "BS-CR2032-8",
+          1,
+          "BAT-SMD_BS-CR2032-8",
+          "BAT1",
+          {
+            "Supplier": "LCSC",
+            "Supplier Part": "C7498149",
+            "Manufacturer": "LX(连欣科技)",
+            "Manufacturer Part": "BS-CR2032-8",
+            "Contributor": "lcsc",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "BS-CR2032-8",
+            "puuid": "82c64c074e514e88a7b15c0693864c7b",
+            "uuid": "101e991a30b14ab7a14b842490d61bae"
+          }
+        ],
+        [
+          "FMQ-BUZZER2",
+          1,
+          "BUZ-TH_BD12.0-P7.60-D0.6-FD",
+          "BUZZER1",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C9900006103",
+            "Manufacturer Part": "FMQ-BUZZER2",
+            "JLCPCB Part Class": "Extended Part",
+            "Manufacturer": "null",
+            "spiceSymbolName": "FMQ-BUZZER2",
+            "puuid": "4937126739894c52921de221c4760bbc",
+            "uuid": "9391f9d5675b497683b317455643919c"
+          }
+        ],
+        [
+          "LED-0603_G",
+          4,
+          "LED0603_GREEN",
+          "LED1,LED2,LED3,LED8",
+          {
+            "Manufacturer": "EVERLIGHT(台湾亿光)",
+            "Manufacturer Part": "19-217/GHC-YR1S2/3T",
+            "Supplier Part": "C72043",
+            "Supplier": "LCSC",
+            "link": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "LED-0603_G",
+            "puuid": "7b706fa666744f94a830dffb572df5db",
+            "uuid": "cf6eca9c9efe444882712b3d5cec1885"
+          }
+        ],
+        [
+          "LED-0603_R",
+          4,
+          "LED0603_RED",
+          "LED4,LED5,LED6,LED7",
+          {
+            "Manufacturer": "EVERLIGHT(台湾亿光)",
+            "Manufacturer Part": "19-217/R6C-AL1M2VY/3T",
+            "Supplier Part": "C72044",
+            "Supplier": "LCSC",
+            "link": "",
+            "Contributor": "LCEDA_01",
+            "spiceSymbolName": "LED-0603_R",
+            "puuid": "1efb3a885b5b4aecb6d41221a8f4d86b",
+            "uuid": "5cbe824183374fac8e4c1ae848199ce3"
+          }
+        ],
+        [
+          "1k",
+          1,
+          "R1206",
+          "R1",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "R_1206_EU",
+            "Manufacturer Part": "",
+            "puuid": "8e9b1be4bcb6420dbd1d09bf04b02792",
+            "uuid": "2fa53d590f544429ab8fcbd581d715c1"
+          }
+        ],
+        [
+          "750",
+          1,
+          "R1206",
+          "R2",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "R_1206_EU",
+            "Manufacturer Part": "",
+            "puuid": "8e9b1be4bcb6420dbd1d09bf04b02792",
+            "uuid": "2fa53d590f544429ab8fcbd581d715c1"
+          }
+        ],
+        [
+          "75",
+          1,
+          "R1206",
+          "R3",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "R_1206_EU",
+            "Manufacturer Part": "",
+            "puuid": "8e9b1be4bcb6420dbd1d09bf04b02792",
+            "uuid": "2fa53d590f544429ab8fcbd581d715c1"
+          }
+        ],
+        [
+          "BUTTON_C9900040040",
+          2,
+          "KEY-SMD_L6.0-W6.0-LS6.6",
+          "U1,U4",
+          {
+            "Contributor": "lcsc",
+            "Supplier": "LCSC",
+            "Supplier Part": "C9900040040",
+            "Manufacturer": "null",
+            "Manufacturer Part": "BUTTON",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "BUTTON_C9900040040",
+            "puuid": "03b6de90c92349278c28791a2edb1146",
+            "uuid": "ea364132913d4f9db42c6502af24b76e"
+          }
+        ],
+        [
+          "32LED-RED",
+          2,
+          "LED-TH_L5..8-W5.6-P2.54_32LED-RED",
+          "U2,U3",
+          {
+            "Supplier": "LCSC",
+            "Supplier Part": "C3306983",
+            "Manufacturer": "Grayhill",
+            "Manufacturer Part": "32LED-RED",
+            "JLCPCB Part Class": "Extended Part",
+            "Contributor": "lcsc",
+            "spiceSymbolName": "32LED-RED",
+            "puuid": "cddd673431b0430ba114cfa7bfb06e79",
+            "uuid": "089009af89ec456fb76a36eebfae7cd9"
+          }
+        ]
+      ],
+      "updateTime": 1738872600,
+      "createTime": 1711905209,
+      "histories": [],
+      "created_at": "2024-03-31 20:13:29",
+      "updated_at": "2025-02-06 22:10:00"
+    },
+    {
+      "uuid": "1941f53cfed851ec6f6dc21557afe591",
+      "puuid": "469871743dab71bba2bf4ed401d18581",
+      "title": "PCB_New Project",
+      "filename": "PCB_New Project.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "82c64c074e514e88a7b15c0693864c7b": 1,
+        "4937126739894c52921de221c4760bbc": 1,
+        "7b706fa666744f94a830dffb572df5db": 3,
+        "1efb3a885b5b4aecb6d41221a8f4d86b": 4,
+        "8e9b1be4bcb6420dbd1d09bf04b02792": 3,
+        "03b6de90c92349278c28791a2edb1146": 2,
+        "cddd673431b0430ba114cfa7bfb06e79": 2
+      },
+      "BOM": [],
+      "updateTime": 1738874115,
+      "createTime": 1738871852,
+      "histories": [],
+      "created_at": "2025-02-06 21:57:32",
+      "updated_at": "2025-02-06 22:35:15"
+    }
+  ],
+  "sort": [],
+  "title": "New Project",
+  "foldername": "New Project",
+  "schfilename": "New Project.json",
+  "schfilemtime": 1738872600017
+}
